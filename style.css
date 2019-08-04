@@ -165,3 +165,19 @@ h2:hover { color: #666; }
   line-height: 1.7;
   padding-left: 1.7em;
 }
+
+
+@media only screen and (max-width: 768px) {
+	.split {
+		display: flex;
+		flex-flow: column;
+	}
+
+	.split > * { overflow: visible; }
+
+	.page { padding-top: 10vh; margin-bottom: 20vh; }
+	h2 { padding-bottom: 5vh; }
+
+	h1 { font-size: 25pt; }
+	.menuitem a { font-size: 15pt; }
+}
