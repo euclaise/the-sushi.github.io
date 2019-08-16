@@ -43,7 +43,7 @@ body {
 }
 
 .page {
-	padding-top: 20vh;
+	padding-top: 15vh;
 	min-height: 100vh;
 }
 
@@ -209,7 +209,6 @@ h2:hover { color: #666; }
 
 	.split > * { overflow: visible; }
 
-	.page { padding-top: 10vh; margin-bottom: 20vh; }
 	h2 { padding-bottom: 5vh; }
 
 	h1 { font-size: 25pt; }
