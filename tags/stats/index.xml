@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Joshua Pritsker</title>
-    <link>http://joshuapritsker.com/posts/</link>
-    <description>Recent content in Posts on Joshua Pritsker</description>
+    <title>stats on Joshua Pritsker</title>
+    <link>http://joshuapritsker.com/tags/stats/</link>
+    <description>Recent content in stats on Joshua Pritsker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 15 Mar 2020 17:41:24 -0700</lastBuildDate>
     
-	<atom:link href="http://joshuapritsker.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://joshuapritsker.com/tags/stats/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>http://joshuapritsker.com/posts/list/</guid>
       <description>(This list will be updated occasionally.)
  The $R_1$ quasi-random sequence, which seems to have good properties without the complexity of Sobol&amp;rsquo;s Sequence. Random-swap EM and deterministic-annealing EM. I&amp;rsquo;ve implemented the former in Julia here. The iterated Laplace approximation. The iterLap package implements this in R.  Also see the modified version, which is slower but more accurate, here. This is related to the multi-modal Laplace approximation, which is described in Chapter 12 of Bayesian Data Analysis.</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>http://joshuapritsker.com/posts/first/</link>
-      <pubDate>Tue, 10 Mar 2020 13:50:42 -0700</pubDate>
-      
-      <guid>http://joshuapritsker.com/posts/first/</guid>
-      <description>Ignore this</description>
     </item>
     
   </channel>
