@@ -6,20 +6,10 @@
     <description>Recent content on Joshua Pritsker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Mar 2020 17:41:24 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2020 14:47:18 -0700</lastBuildDate>
     
 	<atom:link href="http://joshuapritsker.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>A list of neat/useful math stuff</title>
-      <link>http://joshuapritsker.com/posts/list/</link>
-      <pubDate>Sun, 15 Mar 2020 17:41:24 -0700</pubDate>
-      
-      <guid>http://joshuapritsker.com/posts/list/</guid>
-      <description>(This list will be updated occasionally.)
- The $R_1$ quasi-random sequence, which seems to have good properties without the complexity of Sobol&amp;rsquo;s Sequence. Random-swap EM and deterministic-annealing EM. I&amp;rsquo;ve implemented the former in Julia here. The iterated Laplace approximation. The iterLap package implements this in R.  Also see the modified version, which is slower but more accurate, here. This is related to the multi-modal Laplace approximation, which is described in Chapter 12 of Bayesian Data Analysis.</description>
-    </item>
     
     <item>
       <title>About</title>
@@ -29,15 +19,6 @@
       <guid>http://joshuapritsker.com/about/</guid>
       <description>Welcome to the website of Joshua Pritsker. I&amp;rsquo;m an aspiring researcher interested in quantitative methods, with a special focus on developmental research.
 Research Interests  Structural Equation Modeling / General Latent Variable Modeling Multivariate Longitudinal Models Parenting, child development  Contact  Email: joshpritsker@protonmail.com GitHub: The-Sushi ORCiD: 0000-0001-9647-6684 Twitter: JoshPritsker  </description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>http://joshuapritsker.com/posts/first/</link>
-      <pubDate>Tue, 10 Mar 2020 13:50:42 -0700</pubDate>
-      
-      <guid>http://joshuapritsker.com/posts/first/</guid>
-      <description>Ignore this</description>
     </item>
     
   </channel>
