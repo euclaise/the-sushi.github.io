@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Joshua Pritsker</title>
-    <link>http://joshuapritsker.com/</link>
-    <description>Recent content on Joshua Pritsker</description>
+    <title>longitudinal on Joshua Pritsker</title>
+    <link>http://joshuapritsker.com/tags/longitudinal/</link>
+    <description>Recent content in longitudinal on Joshua Pritsker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://joshuapritsker.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://joshuapritsker.com/tags/longitudinal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>http://joshuapritsker.com/posts/change/</guid>
       <description>A commonly encountered problem in longitudinal studies is that there are multiple ways that one can measure change. In a 2-wave study, one can either regress the change in $y$ on some variable, or regress $y_t$ on the variable while including $y_{t-1}$ as a covariate. For the purpose of this article, I&amp;rsquo;ll refer to the first method as the change score method, and the latter as the lagged dependent variable (LDV) method.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://joshuapritsker.com/about/</link>
-      <pubDate>Tue, 10 Mar 2020 14:47:18 -0700</pubDate>
-      
-      <guid>http://joshuapritsker.com/about/</guid>
-      <description>Welcome to the website of Joshua Pritsker. I&amp;rsquo;m an aspiring researcher interested in quantitative methods, with a special focus on developmental research.
-Research Interests  Structural Equation Modeling / General Latent Variable Modeling Multivariate Longitudinal Models Parenting, child development  Contact  Email: joshpritsker@protonmail.com, jpritsk@purdue.edu GitHub: The-Sushi ORCiD: 0000-0001-9647-6684 Google Scholar: Joshua Pritsker OSF: Joshua Pritsker ResearchGate: Joshua Pritsker Twitter: JoshPritsker  </description>
     </item>
     
   </channel>
