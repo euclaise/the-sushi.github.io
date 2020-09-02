@@ -159,7 +159,7 @@ $$ y_{i,t} = \mu_i + \beta_2^C x_i + \epsilon^C_{i,t} $$</p>
 <p>If we want to remove the effect of $\mu_i$ (which confounds the relationship with $x_i$), an obvious way to do so is to take differences:</p>
 <p>$$ y_{i,t} - y_{i,{t-1}} = \mu_i - \mu_i + \beta_2^C x_i + \epsilon^C_{i_t} - \epsilon^C_{i,{t-1}} $$
 $$ \Delta y_{i,t} = \beta_2^C x_i + \Delta\epsilon_{i,t}$$</p>
-<p>Notice that the effect of $\mu_i$ is removed.  Our null hypothesis, $\beta_2^C x_i$, allows $\mu_i$ to vary.
+<p>Notice that the effect of $\mu_i$ is removed.  Our null hypothesis, $\beta_2^C x_i = 0$, allows $\mu_i$ to vary.
 If we can assume that $\mu_i = 0$, as in randomized trials, then there&rsquo;s no point to this.
 However, in observational studies, we typically can&rsquo;t assume this.  For instance, suppose that $y_i$ is a measure of aggression for child $i$.
 In this case, we $\mu_i$ is the stable component of aggression &ndash; the child&rsquo;s overall tendancy to be aggressive.
