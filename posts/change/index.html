@@ -149,7 +149,7 @@ I find that this helps nobody, and that neither method is adequate.</p>
 <h1 id="change-scores-as-a-fixed-effects-model">Change scores as a fixed effects model</h1>
 <p>A lot of people get hung up on things such as the power or reliabiity of the methods.  However, this is irrelevant if one of the methods doesn&rsquo;t produce valid results in the first place.  Hence, I&rsquo;ll focus on the validity of each method here.</p>
 <p>Generally, the use of the regression method arises from the obvious model that it implies &ndash; a standard autoregressive model.  Using standardized variables, and representing the LDV coefficients with $^L$ we have:</p>
-<p>$$ y_{i,t} = \beta_1 y_{i,{t-1}i} + \beta^L_2 x_i + \epsilon^L_{i,t} $$</p>
+<p>$$ y_{i,t} = \beta_1 y_{i,{t-1}} + \beta^L_2 x_i + \epsilon^L_{i,t} $$</p>
 <p>We can obviously get the change score method by simply fixing $\beta_1$ to 1, and moving it to the left-hand side.
 This leads us to a common criticism of change scores: Change scores are simply the LDV approach with $\beta^L_2$ fixed to 1.</p>
 <p>However, it&rsquo;s not that simple.  There are other models that imply the change score method where the LDV method would lead to bias.</p>
