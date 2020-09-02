@@ -179,7 +179,7 @@ The two methods are simply just different methods of estimating a fixed-effects 
 <p>Should we always use change scores then?  Well, what if the LDV model is true?</p>
 <p>In this case, the change score method will attribute <em>all</em> change in $y$ to an effect of $x$.  In contrast, the LDV method only attributes change that differs from the expected level, $\beta_1^L y_{i,t-1}$.
 Hence, if there is regression towards the mean, the change score method will be biased.</p>
-<p>Clearly, each method controls for a different type of stability.  The change-score method controls for trait-like stability, while the LDV approach controls for simple autoregression.
+<p>Each method controls for stability in a different way.  The change-score method controls for trait-like stability, while the LDV approach controls for simple autoregression.
 However, in most psychological studies, we want to control for <em>both</em> of these stabilities (cf. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4067471/">Curran et al., 2012</a>, <a href="http://sci-hub.tw/10.1037/a0038889">Hamaker et al., 2015</a>, <a href="http://sci-hub.tw/10.1111/cdev.12660">Berry &amp; Willoughby, 2016</a>).</p>
 <p>So, why not do that?  Well, if you have 3 waves of data or more, you can do so rather straightforwardly in a structural equation model (again, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4067471/">Curran et al., 2012</a>, <a href="http://sci-hub.tw/10.1037/a0038889">Hamaker et al., 2015</a>, <a href="http://sci-hub.tw/10.1111/cdev.12660">Berry &amp; Willoughby, 2016</a>).  In fact, both of these models are nested under an RI-CLPM:</p>
 
