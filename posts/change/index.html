@@ -167,13 +167,8 @@ If we had differenced $x$ as well, the model would include $x_{i,t-1}$ in the fi
 Using this method, we clearly get an unbiased estimate of $\beta_2^C$.</p>
 <p>An alternative option would be to center each $y_i$ value around child $i$'s mean.  This is the standard approach to fixed-effects regression. However, <em>this yields the same results as the change score method!</em>
 The two methods are simply just different methods of estimating a fixed-effects model.</p>
-<p>The difference between this approach and the LDV approach goes further than the value of $\beta_1$.  To examine this, we first decompose $\epsilon^L_{i,t}$ into multiple parts:</p>
-<ol>
-<li>$\mu_i$ - Person $i$'s deviation from the total mean for $y$</li>
-<li>$\nu_{i,t}$ - Variation in the true score for $y_{i,t}$</li>
-<li>$\delta_{i,t}$ - Measurement error</li>
-</ol>
-<p>If the random intercept model is true, then $y_{i,t-1}$ is necassarily correlated with $\mu_i$, and thus $\epsilon^L_{i,t}$.  Therefore, if one uses the LDV approach when $\mathrm{var}\left(\mu\right) \cancel= ~ 0$, they will get biased results.</p>
+<p>The difference between this approach and the LDV approach goes further than the value of $\beta_1$, but has to do with if the value of $y_{t-1}$ is allowed to be correlated with the error term or not.
+In the LDV model, it is necassarily correlated with the error term, but the autoregressive model assumes that they are uncorrelated.  Or, more simply, the LDV method controls for $\mu_i$ while the autoregressive method does not.</p>
 <p>For more details on the random intercept approach, see <a href="https://statisticalhorizons.com/wp-content/uploads/Allison.SM90.pdf">(Allison, 1990)</a>.</p>
 <h1 id="the-return-of-autoregression-and-the-death-of-two-wave-data">The return of autoregression, and the death of two-wave data</h1>
 <p>Should we always use change scores then?  Well, what if the LDV model is true?</p>
@@ -188,7 +183,7 @@ However, in most psychological studies, we want to control for <em>both</em> of 
 
 <p>However, with only two waves of data, such a model isn&rsquo;t identified, as the two types of stability can’t be differentiated.  Hence, we arrive at our conclusion:</p>
 <p><strong>Stop arguing that over which method is right, they&rsquo;re probably both wrong.</strong></p>
-<p>If you don’t have randomization, then you can’t assume that $\mathrm{var}\left(\mu\right) = 0$ (if you do have randomization, then use the LDV method).  However, you <em>also</em> can’t assume that $\beta_1 = 1$.  What should you do?  I suggest simply estimating both models.  If you get differing results, interpret them conditionally on each models’ assumptions.  If you get results that don’t substantiatively differ from one another, then you can give a stronger interpretation.  If $\beta_2$ turns out to be close to 1, then give a stronger focus to the change score results.  Similarly, if $\mathrm{var}\left(\mu\right) \approx 0$ (testable in a structural equation model), then you can give a stronger focus to the LDV approach.</p>
+<p>If you don’t have randomization, then you can’t assume that $\mathrm{var}\left(\mu\right) = 0$ (or at least $\mathrm{cov}\left(\mu,x_i\right) = 0$; if you do have randomization, then use the LDV method).  However, you <em>also</em> can’t assume that $\beta_1 = 1$.  What should you do?  I suggest simply estimating both models.  If you get differing results, interpret them conditionally on each models’ assumptions.  If you get results that don’t substantiatively differ from one another, then you can give a stronger interpretation.  If $\beta_2$ turns out to be close to 1, then give a stronger focus to the change score results.  Similarly, if $\mathrm{var}\left(\mu\right) \approx 0$ (testable in a structural equation model), then you can give a stronger focus to the LDV approach.</p>
 
       </div>
 
