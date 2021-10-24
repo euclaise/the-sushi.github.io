@@ -21,9 +21,10 @@
     <meta property="og:title" content="Talking about change: Measuring change in longitudinal studies" />
 <meta property="og:description" content="The post discusses the merits and disadvantages of change scores and lagged dependent variables" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://joshuapritsker.com/posts/change/" />
+<meta property="og:url" content="https://joshuapritsker.com/posts/change/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-09-01T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-09-01T00:00:00+00:00" />
+
 
 
     
@@ -60,7 +61,7 @@
     <link rel="icon" type="image/png" href="https://joshuapritsker.com/img/j3.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://joshuapritsker.com/img/j3.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.85.0" />
   </head>
   
   
@@ -163,9 +164,9 @@ $$ \Delta y_{i,t} = \beta_2^C x_i + \Delta\epsilon_{i,t}$$</p>
 If we can assume that $\mu_i = 0$, as in randomized trials, then there&rsquo;s no point to this.
 However, in observational studies, we typically can&rsquo;t assume this.  For instance, suppose that $y_i$ is a measure of aggression for child $i$.
 In this case, we $\mu_i$ is the stable component of aggression &ndash; the child&rsquo;s overall tendancy to be aggressive.
-If we had differenced $x$ as well, the model would include $x_{i,t-1}$ in the first equation (note that $x$'s time scale may be lagged, such that $x_{i,t-1}$ is a the same time as $y_{i,t}$, but this typically does not occur as it requires time points for $x$ before $y$ was measured).
+If we had differenced $x$ as well, the model would include $x_{i,t-1}$ in the first equation (note that $x$&rsquo;s time scale may be lagged, such that $x_{i,t-1}$ is a the same time as $y_{i,t}$, but this typically does not occur as it requires time points for $x$ before $y$ was measured).
 Using this method, we clearly get an unbiased estimate of $\beta_2^C$.</p>
-<p>An alternative option would be to center each $y_i$ value around child $i$'s mean.  This is the standard approach to fixed-effects regression. However, <em>this yields the same results as the change score method!</em>
+<p>An alternative option would be to center each $y_i$ value around child $i$&rsquo;s mean.  This is the standard approach to fixed-effects regression. However, <em>this yields the same results as the change score method!</em>
 The two methods are simply just different methods of estimating a fixed-effects model.</p>
 <p>The difference between this approach and the LDV approach goes further than the value of $\beta_1$, but has to do with if the value of $y_{t-1}$ is allowed to be correlated with the error term or not.
 In the LDV model, it is necassarily correlated with the error term, but the autoregressive model assumes that they are uncorrelated.  Or, more simply, the LDV method controls for $\mu_i$ while the autoregressive method does not.</p>
@@ -228,7 +229,7 @@ However, in most psychological studies, we want to control for <em>both</em> of 
 
     
       
-      <script src="https://joshuapritsker.com/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      <script src="https://joshuapritsker.com/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js"></script>
     
 
     

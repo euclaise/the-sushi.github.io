@@ -5,38 +5,6 @@
     <link>https://joshuapritsker.com/tags/</link>
     <description>Recent content in Tags on Joshua Pritsker</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://joshuapritsker.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>change</title>
-      <link>https://joshuapritsker.com/tags/change/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://joshuapritsker.com/tags/change/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>longitudinal</title>
-      <link>https://joshuapritsker.com/tags/longitudinal/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://joshuapritsker.com/tags/longitudinal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>statistics</title>
-      <link>https://joshuapritsker.com/tags/statistics/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://joshuapritsker.com/tags/statistics/</guid>
-      <description></description>
-    </item>
-    
+    <language>en</language><atom:link href="https://joshuapritsker.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
