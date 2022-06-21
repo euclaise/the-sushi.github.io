@@ -7,6 +7,11 @@ body {
     line-height: 1.8em;
 }
 
+@media (pointer:none), (pointer:coarse) {
+    body {
+        font-size: xx-large;
+    }
+}
 .avatar {
     width: 13em;
     height: auto;
@@ -51,4 +56,8 @@ tr:last-child th  { border-left: 0; }
 #titlename {
     margin-top: 0.5em;
     margin-bottom: 0.1em;
+}
+
+#namewrapper {
+    width: 200em;
 }
